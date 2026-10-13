@@ -1,0 +1,30 @@
+# Secrets : jamais dans ce depot (ces lignes sont des MOTIFS d'exclusion,
+# pas des fichiers presents -- voir garde-fou-secrets-ignore)
+.env
+.env.*
+*.credentials
+identifiants.yaml
+secrets.*
+*.key
+*.pem
+
+# Sorties d'outils
+out/
+*.log
+*.json
+!examples/*.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Systeme / editeurs
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*~
